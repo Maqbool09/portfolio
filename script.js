@@ -34,3 +34,18 @@ cancelBtn.onclick = function(){
   scrollBtn.style.pointerEvents = "auto";
 }
 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const navLinks = document.querySelectorAll("nav .menu li a");
+
+  navLinks.forEach(link => {
+      link.addEventListener("mouseover", function() {
+          this.style.color = "#fff";
+      });
+
+      link.addEventListener("mouseout", function() {
+          this.style.color = "";
+      });
+  });
+});
