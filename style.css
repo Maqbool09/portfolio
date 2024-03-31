@@ -131,7 +131,7 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: wheat;
+  color: rgb(64, 112, 244);
 }
 .home .text-two{
   color: whitesmoke;
@@ -252,7 +252,7 @@ section .title{
   margin-bottom: 40px;
 }
 section .title span{
-  color: #eff3f6;
+  color: #3498db;
   font-size: 30px;
   font-weight: 600;
   position: relative;
@@ -264,7 +264,7 @@ section .title span::after{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #fff;
+  background: #3498db;
   left: 0;
   bottom: 0;
 }
