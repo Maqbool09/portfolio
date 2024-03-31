@@ -75,7 +75,7 @@ nav .navbar .menu li{
   color: #4070f4;
 }
 nav.sticky .menu a{
-  color: #FFF;
+  color: #3498db;
 }
 nav.sticky .menu a:hover{
   color: #0E2431;
@@ -230,7 +230,7 @@ nav.sticky .menu-btn{
 /* About Section Styling */
 
 section{
-  background-color: black;
+  /* background-color: black; */
   padding-top: 40px;
   padding-bottom: 80px;
 }
@@ -533,7 +533,7 @@ footer .text span a:hover{
     margin: 10px 0;
   }
   nav.sticky .menu a:hover{
-    color: #4070f4;
+    color: #3498db;
   }
   nav .navbar .media-icons{
     display: none;
@@ -751,3 +751,10 @@ font-family: 'Arial', sans-serif; /* Customize the font family */
 
 
 
+/* .menu li:nth-child(1) a {
+  color: white;
+}
+
+.menu li:nth-child(2):active ~ .menu li:nth-child(1) a {
+  color: white;
+} */
