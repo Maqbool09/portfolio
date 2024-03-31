@@ -54,7 +54,7 @@ nav .navbar .logo a{
   color: #4070f4;
 }
 nav.sticky .navbar .logo a{
-  color: #fff;
+  color: #3498db;
 }
 nav .navbar .menu{
   display: flex;
@@ -86,7 +86,7 @@ nav.sticky .menu a:hover{
   margin: 0 6px;
 }
 nav.sticky .media-icons a{
-  color: #FFF;
+  color: #3498db;
 }
 
 /* Side Navigation Menu Button CSS */
