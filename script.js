@@ -42,10 +42,12 @@ document.addEventListener("DOMContentLoaded", function() {
   function handleLinkHover(link) {
     link.addEventListener("mouseover", function() {
       this.style.color = "#fff";
+      this.style.opacity = "0.1";
     });
 
     link.addEventListener("mouseout", function() {
       this.style.color = "";
+      this.style.opacity = "";
     });
   }
 

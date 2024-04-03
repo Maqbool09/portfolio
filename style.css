@@ -73,6 +73,7 @@ nav .navbar .menu li{
 }
 .navbar .menu a:hover{
   color: #fff;
+  opacity: 0.1;
 }
 
 nav.sticky .menu a{
@@ -748,4 +749,5 @@ font-family: 'Arial', sans-serif; /* Customize the font family */
 
 .navbar .media-icons a:hover {
   color: #fff;
+  opacity: 0.1;
 }
