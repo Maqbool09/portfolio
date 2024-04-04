@@ -67,9 +67,9 @@ document.addEventListener("DOMContentLoaded", function() {
   var textContentTwo = textTwo.textContent.trim();
   var textContentThree = textThree.textContent.trim();
   
-  textOne.textContent = ''; // Clear existing content
-  textTwo.textContent = ''; // Clear existing content
-  textThree.textContent = ''; // Clear existing content
+  textOne.textContent = '';
+  textTwo.textContent = '';
+  textThree.textContent = '';
   
   var indexOne = 0;
   var indexTwo = 0;
@@ -109,6 +109,6 @@ document.addEventListener("DOMContentLoaded", function() {
   
   setTimeout(function() {
     typeWriterThree();
-  }, 2600);
+  }, 2650);
 
 });
