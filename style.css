@@ -516,7 +516,7 @@ footer .text span a:hover{
     position: fixed;
     left: -100%;
     top: 0;
-    background: #0E2431;
+    background: #06042a;
     height: 100vh;
     max-width: 400px;
     width: 100%;
@@ -531,7 +531,7 @@ footer .text span a:hover{
   nav .navbar .menu a{
     font-size: 23px;
     display: block;
-    color: #fff;
+    color: #3498db;
     margin: 10px 0;
   }
   nav .navbar .media-icons{
