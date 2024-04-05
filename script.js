@@ -11,10 +11,9 @@ window.onscroll = function() {
     nav.classList.remove("sticky");
     scrollBtn.style.display = "none";
   }
-
 }
 
-// Side NavIgation Menu JS Code
+// Side Navigation Menu JS Code
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
@@ -33,6 +32,7 @@ cancelBtn.onclick = function(){
   body.style.overflow = "auto";
   scrollBtn.style.pointerEvents = "auto";
 }
+
 
 
 document.addEventListener("DOMContentLoaded", function() {
