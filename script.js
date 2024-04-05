@@ -1,10 +1,9 @@
-// Side Navigation Menu JS Code
+// Side Navigation Menu JS Code mobile menu buttons
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
 let cancelBtn = document.querySelector(".cancel-btn");
 
-// Function to close the side navigation menu
 function closeSideMenu() {
   navBar.classList.remove("active");
   menuBtn.style.opacity = "1";
@@ -12,7 +11,6 @@ function closeSideMenu() {
   body.style.overflow = "auto";
 }
 
-// Event handler for menu button click
 menuBtn.onclick = function(){
   navBar.classList.add("active");
   menuBtn.style.opacity = "0";
@@ -21,21 +19,19 @@ menuBtn.onclick = function(){
   scrollBtn.style.pointerEvents = "none";
 }
 
-// Event handler for cancel button click
 cancelBtn.onclick = function(){
   closeSideMenu();
 }
 
-// Event listener for links inside the menu
 document.querySelectorAll('.menu a').forEach(link => {
   link.addEventListener('click', () => {
     closeSideMenu();
   });
 });
+//End menu buttons
 
 
-
-
+//mouseover start
 document.addEventListener("DOMContentLoaded", function() {
   const navLinks = document.querySelectorAll("nav .menu li a");
   const mediaLinks = document.querySelectorAll("nav .media-icons a");
@@ -59,7 +55,9 @@ document.addEventListener("DOMContentLoaded", function() {
   mediaLinks.forEach(link => {
     handleLinkHover(link);
   });
+  //mouseover end
 
+  //text animation start
   var textOne = document.querySelector('.text-one');
   var textTwo = document.getElementById('text-two');
   var textThree = document.querySelector('.text-three');
@@ -113,3 +111,4 @@ document.addEventListener("DOMContentLoaded", function() {
   }, 2650);
 
 });
+  //text animation end
