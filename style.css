@@ -16,13 +16,13 @@
     background: #06042a;
 }
 ::-webkit-scrollbar-thumb {
-    background: #06042a;
+    background: #050534;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #06042a;
+    background: #02030e;
 }
 /* navbar styling */
 nav{
@@ -441,7 +441,7 @@ section .button button:hover{
 
 /* Footer CSS */
 footer{
-  background: #06042a;
+  background: #02030e;
   position: fixed;
   bottom: 0; 
   left: 0; 
@@ -516,7 +516,7 @@ footer .text span a:hover{
     position: fixed;
     left: -100%;
     top: 0;
-    background: #06042a;
+    background: #02030e;
     height: 100vh;
     max-width: 400px;
     width: 50%;
@@ -610,7 +610,7 @@ footer .text span a:hover{
   }
 
   .btn:hover {
-    background-color: #217dbb;
+    background-color: #fff;
   }
 
 
@@ -695,7 +695,7 @@ nav {
   z-index: 998;
   transition: all 0.3s ease;
   font-family: 'Ubuntu', sans-serif;
-  background-color: black; /* Black background for the navigation bar */
+  background-color: #02030e;
 }
 
 .home {
