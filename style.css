@@ -636,7 +636,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #0E2431; /* Dark background color */
+  background-color: black;
 }
 
 .container {
